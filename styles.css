@@ -1,0 +1,390 @@
+.nav{
+    display: flex;
+    justify-content: flex-end;
+    background-color: #9B0000;
+    padding: 10px;
+}
+.item{
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    font-family: 'Open Sans', sans-serif;
+}
+.item:hover{
+    text-transform: uppercase;
+}
+.first{
+    margin-right: auto;
+}
+body{
+    background-color: #F3ED9E;
+}
+.about{
+    display: flex;
+}
+.mix{
+    flex:1;
+}
+.anime{
+    display: flex;
+    justify-content: center;
+}
+.heading{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+}
+.heading:hover{
+    color: #9B0000;
+}
+.branch{
+    display: flex;
+    justify-content: space-evenly;
+}
+.legal{
+    color: black;
+    list-style: none;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 25px;
+    padding: 30px;
+}
+.legal:hover{
+    background-color: #9B0000;
+    color: white;
+}
+.like{
+    display: flex;
+}
+.text{
+    color: #9B0000;
+    text-transform: uppercase;
+    font-family: 'Open Sans', sans-serif;
+    align-self: center;
+    padding: 10px;
+    font-size: 30px;
+}
+.btn{
+    text-align: center;
+}
+.cta{
+    background-color: #9B0000;
+    color: white;
+    text-transform: uppercase;
+    cursor: pointer;
+    padding: 15px;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 15px;
+}
+.container{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.piece{
+    display: flex;
+    justify-content: center;
+}
+.op{
+    background-color: #9B0000;
+    color: white;
+    font-size: 40px;
+    font-family: 'Noto Serif Display', serif;
+}
+.image{
+    display: flex;
+}
+.textone{
+    text-align: center;
+}
+.szene{
+    align-self: center;
+    font-family: 'Noto Serif Display', serif;
+    padding: 10px;
+}
+.schrift{
+    font-size: 30px;
+    font-style: oblique;
+    color: #9B0000;
+}
+.helden{
+    display: flex;
+    justify-content: space-evenly;
+}
+.ruffy:hover{
+    transform: scale(1.2);
+}
+
+
+.death{
+    display: flex;
+    justify-content: center;
+}
+.dn{
+    background-color: #9B0000;
+    color: white;
+    font-size: 40px;
+    font-family: 'BhuTuka Expanded One', cursive;
+}
+.imgdeath{
+    display: flex;
+}
+.textdeath{
+    text-align: center;
+}
+.deathwiki{
+    font-family: 'BhuTuka Expanded One', cursive;
+    align-self: center;
+    padding: 10px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.hand{
+    color: #9B0000;
+    font-size: 30px;
+}
+.helden2{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+.demon{
+    background-image: url(kimetsu-no-yaiba.hintergrund.jpg);
+    background-size: cover;
+}
+.hauptdemon{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100vh;
+}
+.tabelle{
+    font-family: 'Oswald', sans-serif;
+    background-color: #ffcea3;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    opacity: 0.8;
+    width: 500px;
+}
+.dem{
+    color: #9B0000;
+    text-align: center;
+}
+.tanjiro{
+    text-align: center;
+}
+
+
+.naruto{
+    background-image: url(naruto.hintergrund.jpg);
+    background-size: cover;
+}
+.haupt{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+
+}
+.ship{
+    font-family: 'Roboto Mono', monospace;
+    background-color: #feffb0;
+    padding: 20px;
+    border: none;
+    border-radius: 50px;
+    opacity: 0.6;
+    width: 500px;
+}
+.nar{
+    color: #e96c05;
+    text-align: center;
+}
+.shipu{
+    text-align: center;
+}
+
+@media all and (max-width: 1500px){
+    .branch{
+        display: flex;
+        flex-direction: column;
+    }
+    .mix{
+        width: 500px;
+    }
+}
+
+@media all and (max-width: 900px){
+    .branch{
+        display: flex;
+        flex-direction: column;
+    }
+    .mix{
+        width: 500px;
+    }
+}
+
+@media all and (max-width: 800px){
+    .branch{
+        display: flex;
+        flex-direction: column;
+    }
+    .mix{
+        width: 500px;
+    }
+    .legal{
+        margin-left: auto; 
+    }
+}
+
+@media all and (max-width: 500px){
+    .branch{
+        display: flex;
+        flex-direction: column;
+    }
+    .heading{
+        font-size: 30px;
+    }
+    .mix{
+        width: 300px;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        font-size: 10px; 
+    }
+    img{
+        width: 200px;
+    }
+}
+
+@media all and (max-width: 400px){
+    .branch{
+        display: flex;
+        flex-direction: column;
+    }
+    .mix{
+        width: 200px;
+    }
+    .nav{
+        display: flex;
+        justify-content: center;
+        font-size: 10px; 
+    }
+    img{
+        width: 110px;
+    }
+}
+
+@media all and (max-width: 1500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .piece, .death{
+        display: flex;
+        justify-content: center;
+        font-size: 10px; 
+    }
+    .mobile{
+        width: 400px;
+    }
+    image, .imgdeath{
+        justify-content: center;
+    }
+    .ruffy{
+        width: 100px;
+    }
+    .ruffy:hover{
+        transform: scale(1.2);
+    }
+}
+
+@media all and (max-width: 800px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .piece, .death{
+        display: flex;
+        justify-content: center;
+        font-size: 10px; 
+    }
+    .mobile{
+        width: 300px;
+    }
+    .image, .imgdeath{
+        justify-content: center;
+    }
+    .ruffy{
+        width: 100px;
+    }
+    .ruffy:hover{
+        transform: scale(1.2);
+    }
+}
+
+@media all and (max-width: 500px){
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+    .piece, .death{
+        display: flex;
+        justify-content: center;
+        font-size: 10px; 
+    }
+    .mobile{
+        width: 300px;
+    }
+    image, .imgdeath{
+        justify-content: center;
+    }
+    .ruffy{
+        width: 100px;
+    }
+    .ruffy:hover{
+        transform: scale(1.2);
+    }
+}
+
+@media all and (max-width: 1500px){
+    .ruffy{
+        width: 100px;
+    }
+    .ruffy:hover{
+        transform: scale(1.2);
+    }
+    .haupt, .hauptdemon{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 800px){
+    .ruffy{
+        width: 100px;
+    }
+    .ruffy:hover{
+        transform: scale(1.2);
+    }
+    .haupt, .hauptdemon{
+        display: flex;
+        justify-content: center;
+    }
+}
+
+@media all and (max-width: 500px){
+    .ruffy{
+        width: 100px;
+    }
+    .ruffy:hover{
+        transform: scale(1.2);
+    }
+    .haupt, .hauptdemon{
+        display: flex;
+        justify-content: center;
+    }
+}
