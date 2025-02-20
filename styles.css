@@ -94,7 +94,6 @@ body{
 }
 .image{
     display: flex;
-    justify-content: center;
 }
 .textone{
     text-align: center;
